@@ -1,3 +1,9 @@
+<Directory /js/config.js>
+   Order deny,allow
+   Deny from all
+   Allow from 127.0.0.1
+</Directory>
+
 RewriteEngine On
 RewriteBase /
 RewriteCond %{HTTPS} off
